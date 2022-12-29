@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Musify</title>
+     <link rel="icon" type="image/x-icon" href="logo.png">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <nav>
+          <ul>
+               <li class="brand"><img src="logo.png" alt="spotify-img">Musify</li>
+               <li class="nav">Home</li>
+               <li class="nav">About</li>
+               <li id="login">Login / Sign up</li>
+
+          </ul>
+     </nav>
+
+     <div class="container">
+          
+
+          <div class="songList">
+               <h1>Musify - Best Of All You Can Get</h1>
+               <div class="songsItemContainer">
+
+                    <video id="video" src="video.mp4" autoplay muted>
+
+                    </video>
+                    
+                    <div class="songItem">
+                         <img alt="1">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="2" class="far  songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                         <img alt="image not found">
+                         <span class="songName">Here comes the song name </span>
+                         <span class="songlistplay"><span class="timestamp"><i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+                    
+               </div>
+          </div>
+          
+     </div>
+
+     <div class="bottom">
+          <input type="range" name="range" id="myProgressBar" alt="image not found" min="0" max="100">
+          <div class="icons">
+               <!--font awesome icons-->
+               <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>                      
+               <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+               <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+          </div>
+
+          <div class="songInfo">
+               <img src="soundbar.gif" width="42px" alt="" id="gif"><span id="masterSongName"><p>Basti ka Hasti x Hera Pheri</p></span>
+          </div>
+     </div>
+
+     <script src="https://kit.fontawesome.com/ca67c5f477.js" crossorigin="anonymous"></script>
+     <script src="script.js"></script>
+</body>
+</html>
